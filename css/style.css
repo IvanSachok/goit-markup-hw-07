@@ -984,7 +984,8 @@ img {
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background: #e7e9fc;
+  background-color: none;
+
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
@@ -1024,13 +1025,7 @@ img {
   transform: translateX(0);
 }
 
-.menu-container .menu-toggle {
-  position: absolute;
-  top: 16px;
-  right: 16px;
-  color: #fff;
-}
-.mobile-modal-close {
+.menu-container .mobile-menu-toggle {
   position: absolute;
   top: 24px;
   right: 24px;
@@ -1044,15 +1039,20 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1);
   padding: 0;
   cursor: pointer;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.menu-toggle-burger {
+  border: none;
+}
+
+.burger-icon {
+  border: none;
+  stroke: var(--background-footer);
 }
 .mobile-icon-close {
-  .icon-close {
-    width: 8px;
-    height: 8px;
-    fill: var(--background-footer);
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  }
+  width: 8px;
+  height: 8px;
+  fill: var(--background-footer);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .mobile-menu {
