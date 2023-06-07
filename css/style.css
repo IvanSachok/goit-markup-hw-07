@@ -1042,6 +1042,7 @@ img {
 }
 .menu-toggle-burger {
   border: none;
+  background: transparent;
 }
 
 .burger-icon {
